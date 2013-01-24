@@ -19,7 +19,7 @@ body {
 
 p {
   font-weight: normal;
-  color: #e9c6af;
+  color: rgb(240, 197, 155);
 }
 
 section, hgroup {
@@ -28,7 +28,7 @@ section, hgroup {
 }
 
 header {
-  background-color: #e9c6af;
+  background-color: rgb(240, 197, 155);
   padding: 8% 35%;
 }
 
