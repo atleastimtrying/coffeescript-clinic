@@ -1,28 +1,69 @@
-*{
+/*
+  Font sizes:
+  14pt  22pt  24pt  28pt
+  100%  157%  171%  200%
+*/
+
+
+* {
   margin:0;
   padding:0;
+}
+
+body {
+  background-color: #784421;
+  font-size: 14pt;
   font-family:sans-serif;
-  font-weight:normal;
-  font-size:24px;
-  color:#666;
-  text-shadow:0 1px 1px white;
+  font-weight:bold;
 }
 
-article{
+p {
+  font-weight: normal;
+  color: #e9c6af;
+}
+
+section, hgroup {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
-header{
+header {
+  background-color: #e9c6af;
+  padding: 8% 35%;
 }
 
-header h1{
+header img {
+  float: left;
+  margin-right: 20px;
 }
 
-header h2{
-
+article {
+  padding: 8%;
 }
 
-input{
+h1 {
+  font-size: 200%;
+  color: #28170b;
+}
 
+h2 {
+  font-size: 157%;
+  color: #502d16;
+}
+
+h3 {
+  font-size: 157%;
+  color: #deaa87;
+}
+
+label {
+  font-variant: small-caps;
+  color: #552200;
+  font-size: 157%;
+  padding: 5px;
+}
+
+input[type=email] {
+  font-size: 157%;
+  padding: 5px;
 }
