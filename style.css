@@ -123,12 +123,6 @@ section{
 section:last-child{
   margin-bottom:0;
 }
-/**
- wufoo styles
-*/
-header#header{
-  display:none;
-}
 @media all and (max-width: 824px){
   section h3{
     display:block;
