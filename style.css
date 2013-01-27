@@ -123,6 +123,7 @@ input#submit{
   margin-bottom:12px;
   background-color: rgb(80, 41, 15);
   color:rgb(243, 225, 198);
+  display:none;
 }
 
 aside p{
