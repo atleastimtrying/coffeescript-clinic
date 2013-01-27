@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #784421;
+  background-color:rgb(243, 225, 198);
   font-size: 16px;
   font-family:sans-serif;
   font-weight:bold;
@@ -38,6 +38,7 @@ hgroup{
 }
 
 article {
+  background-color: #784421;
   box-shadow: inset 0 0 48px rgba(0,0,0,0.5);
 }
 
