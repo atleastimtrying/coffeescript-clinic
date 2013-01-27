@@ -32,37 +32,15 @@
       </address>
     </section>
     <section>
-      <div id="wufoo-m7x3q1">
-      </div>
-      <script type="text/javascript">
-        var m7x3q1;
-        (function(d, t) {
-          var s = d.createElement(t), options = {
-            'userName':'jsdev', 
-            'formHash':'m7x3q1', 
-            'autoResize':true,
-            'height':'260',
-            'async':true,
-            'header':'show'
-          };
-          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-          s.onload = s.onreadystatechange = function() {
-            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-            try { 
-              m7x3q1 = new WufooForm();m7x3q1.initialize(options);m7x3q1.display(); 
-            } catch (e) {
-
-            }
-          };
-          var scr = d.getElementsByTagName(t)[0];
-          var par = scr.parentNode;
-          par.insertBefore(s, scr);
-        })(document, 'script');
-      </script>
-<!--       <form>
-        <label for='email' >Sign Up</label>
-        <input name='email' type='email' placeholder='your@email.com'>
-      </form> -->
+      <form name="form2" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+action="https://jsdev.wufoo.com/forms/m7x3q1/#public">
+        <section>
+          <label for='Field1' >Sign Up</label>
+          <input type="email" name="Field1" spellcheck="false" placeholder='your@email.com'>
+        </section>
+        <input type="hidden" name="idstamp" value="WR1l59SEX74IVnGGJXBi2xEx/6q4e9vqM6g8nuJ4fFA=">
+        <input type="submit" id='submit' name="saveForm" value="Submit">
+      </form>
       <aside>
         <p><strong>Privacy</strong>: We promise to never sell, distribute or misuse your email address.  You may unsubscribe at any time, and instructions for doing so will be at the bottom of every email we send. At most, you may receieve one email every 2 months</p>
       </aside>
