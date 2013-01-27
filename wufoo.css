@@ -1,13 +1,13 @@
 header#header{
   display:none;
 }
-form{
+form#form2{
   display:table;
   width:100%;
   margin-bottom:24px;
 }
 
-label, input{
+form#form2 label,form#form2 input{
   padding: 10px;
   border:none;
   display:inline-block;
@@ -18,7 +18,7 @@ label, input{
   display:table-cell;
 }
 
-label {
+form#form2 label {
   margin-right: -5px;
   background-color:beige;
   border-top-left-radius: 5px;
@@ -27,7 +27,7 @@ label {
   width:120px;
 }
 
-input{
+form#form2 input{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   padding-right:32px;
