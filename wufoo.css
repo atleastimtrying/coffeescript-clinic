@@ -1,3 +1,41 @@
-header{
+header#header{
   display:none;
+}
+form{
+  display:table;
+  width:100%;
+  margin-bottom:24px;
+}
+
+label, input{
+  padding: 10px;
+  border:none;
+  display:inline-block;
+  background:white;
+  vertical-align:top;
+  font-size:32px;
+  font-family:sans-serif;
+  display:table-cell;
+}
+
+label {
+  margin-right: -5px;
+  background-color:beige;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-weight:normal;
+  width:120px;
+}
+
+input{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-right:32px;
+  background-image:url(bean.png);
+  background-size:32px 32px;
+  border-right:10px solid white;
+  background-position:center right;
+  background-repeat:no-repeat;
+  width:100%;
+  box-sizing: border-box;
 }
