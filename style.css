@@ -118,6 +118,7 @@ aside p{
 section{
   margin-bottom:24px;
 }
+
 section:last-child{
   margin-bottom:0;
 }

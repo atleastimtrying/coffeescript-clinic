@@ -32,10 +32,37 @@
       </address>
     </section>
     <section>
-      <form>
+      <div id="wufoo-m7x3q1">
+      </div>
+      <script type="text/javascript">
+        var m7x3q1;
+        (function(d, t) {
+          var s = d.createElement(t), options = {
+            'userName':'jsdev', 
+            'formHash':'m7x3q1', 
+            'autoResize':true,
+            'height':'260',
+            'async':true,
+            'header':'show'
+          };
+          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+          s.onload = s.onreadystatechange = function() {
+            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+            try { 
+              m7x3q1 = new WufooForm();m7x3q1.initialize(options);m7x3q1.display(); 
+            } catch (e) {
+
+            }
+          };
+          var scr = d.getElementsByTagName(t)[0];
+          var par = scr.parentNode;
+          par.insertBefore(s, scr);
+        })(document, 'script');
+      </script>
+<!--       <form>
         <label for='email' >Sign Up</label>
         <input name='email' type='email' placeholder='your@email.com'>
-      </form>
+      </form> -->
       <aside>
         <p><strong>Privacy</strong>: We promise to never sell, distribute or misuse your email address.  You may unsubscribe at any time, and instructions for doing so will be at the bottom of every email we send. At most, you may receieve one email every 2 months</p>
       </aside>
