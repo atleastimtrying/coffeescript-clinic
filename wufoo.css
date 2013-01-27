@@ -7,14 +7,15 @@
 }
 
 form#form2 label {
-  margin-right: -5px;
   background-color:beige;
-  border-radius: 5px;
+  border-radius: 4px;
   font-weight:normal;
-  padding:5px;
+  font-size:24px;
+  padding:8px;
 }
 
 form#form2 input{
-  border-radius: 5px;
-  padding:5px;
+  border-radius: 4px;
+  font-size:24px;
+  padding:8px;
 }
