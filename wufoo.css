@@ -1,41 +1,20 @@
-header#header{
+.embed header#header{
   display:none;
 }
-form#form2{
-  display:table;
-  width:100%;
-  margin-bottom:24px;
-}
-
-form#form2 label,form#form2 input{
-  padding: 10px;
-  border:none;
-  display:inline-block;
-  background:white;
-  vertical-align:top;
-  font-size:32px;
+html.embed{
+  background:none;
   font-family:sans-serif;
-  display:table-cell;
 }
 
 form#form2 label {
   margin-right: -5px;
   background-color:beige;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 5px;
   font-weight:normal;
-  width:120px;
+  padding:5px;
 }
 
 form#form2 input{
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  padding-right:32px;
-  background-image:url(bean.png);
-  background-size:32px 32px;
-  border-right:10px solid white;
-  background-position:center right;
-  background-repeat:no-repeat;
-  width:100%;
-  box-sizing: border-box;
+  border-radius: 5px;
+  padding:5px;
 }
