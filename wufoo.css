@@ -1,9 +1,9 @@
+#container, html.embed{
+  background:none;
+}
+
 .embed header#header{
   display:none;
-}
-html.embed{
-  background:none;
-  font-family:sans-serif;
 }
 
 form#form2 label {
