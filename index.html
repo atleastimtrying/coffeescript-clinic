@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>CoffeeScript Clinic</title>
-  <meta name="description" content="">
+  <meta name="description" content="A chance to learn or practise coffeescript in Norwich UK">
   <meta name="author" content="Anders Fisher">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvVmPLV7KaPZSvoeRHK3enXXK&sensor=false"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,35 +18,33 @@
   </header>
   <article>
     <section>
-      <h3>What</h3>
-      <p>Come along, learn coffeescript, get help with your projects or just geek out with other coffeescripters. All ages and abilities welcome.</p>
+      <p>Come along, learn Coffee- Script, get help with your projects or just geek out with other CoffeeScripters. All abilities welcome.</p>
     </section>
     <section>
-      <h3>When</h3>
-      <p> 7pm Monday 24th February 2013</p>
+      <h3>When &amp; Where</h3>
+      <time>Monday 24th February 2013 7pm</time>
+      <p>Blurtit offices, Seymour House, Muspole Street, Norwich, Norfolk, United Kingdom</p>
+      <div id='gmap'></div>
     </section>
     <section>
-      <h3>Where</h3>
-      <address>
-        <strong>Blurtit offices, Seymour House, Muspole Street.</strong>
-        Norwich, Norfolk, United Kingdom
-      </address>
+      <a href='http://www.twitter.com/coffeescripters'>
+        Follow us on Twitter
+      </a>
     </section>
     <section>
+      <h3>Mailing List</h3>
+      <p>For occasional updates and news about future events, join our mailing list.</p>
       <form name="form2" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-action="https://jsdev.wufoo.com/forms/m7x3q1/#public">
-        <section>
-          <label for='Field1' >Sign Up</label>
+action="https://jsdev.wufoo.com/forms/m7x3q1/#public">          
           <input type="email" name="Field1" spellcheck="false" placeholder='your@email.com'>
-        </section>
         <input type="hidden" name="idstamp" value="WR1l59SEX74IVnGGJXBi2xEx/6q4e9vqM6g8nuJ4fFA=">
-        <input type="submit" id='submit' name="saveForm" value="Submit">
+        <input type="submit" id='submit' name="saveForm" value="Join">
       </form>
-      <aside>
-        <p><strong>Privacy</strong>: We promise to never sell, distribute or misuse your email address.  You may unsubscribe at any time, and instructions for doing so will be at the bottom of every email we send. At most, you may receieve one email every 2 months</p>
-      </aside>
     </section>
   </article>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <footer>
+    Sponsored by <a href='http://wearepandr.com'>PANDR</a>
+  </footer>
+  <script src="map.js"></script>
 </body>
 </html>
