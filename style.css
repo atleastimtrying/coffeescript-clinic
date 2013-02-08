@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color:#d1c9bd;
+  background-color:#dad3c9;
   background-image:url(stain.png);
   background-position:300px 400px;
   background-attachment:fixed;
@@ -68,7 +68,7 @@ section h2{
 section h3,
 time,
 .twitter{
-  font-size:28px;
+  font-size:27px;
   color:#5c5c5c;
   font-weight:600;
   display:block;
@@ -98,7 +98,7 @@ time,
 }
 
 p{
-  font-size:24px;
+  font-size:21px;
   line-height:30px;
   color:#a5a5a5;
   margin-bottom:30px;
@@ -112,8 +112,8 @@ input#submit{
   background:#e0e0e0;
   padding:15px;
   border:0;
-  font-size:24px;
-  line-height:24px;
+  font-size:21px;
+  line-height:21px;
   font-weight:normal;
   display:inline-block;
 }
