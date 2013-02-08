@@ -33,12 +33,14 @@ header h2{
   font-weight:normal;
   margin-bottom:8px;
   width:150px;
+  font-weight:600;
 }
 header h1{
   font-size:35px;
   line-height:35px;
   color:#373737;
   width: 365px;
+  font-weight:400;
 }
 article{
   border:1px solid #aca59a;
@@ -60,7 +62,7 @@ section h2{
   color:#5b5b5b;
   font-size:38px;
   line-height:44px;
-  font-weight:normal;
+  font-weight:600;
 }
 
 section h3,
@@ -68,7 +70,7 @@ time,
 .twitter{
   font-size:28px;
   color:#5c5c5c;
-  font-weight:normal;
+  font-weight:600;
   display:block;
   margin-bottom:10px;
 }
