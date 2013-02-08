@@ -75,7 +75,7 @@ time,
 
 time,
 .twitter{
-  color:#f09c28;
+  color:#f5aa0c;
 }
 
 .twitter{
@@ -102,7 +102,7 @@ p{
   margin-bottom:30px;
 }
 a{
-  color:#f09c28;
+  color:#f5aa0c;
   text-decoration:none;
 }
 input#email,
@@ -120,7 +120,7 @@ input#email{
   width: 375px;
 }
 input#submit{
-  background-color:#f09c28;
+  background-color:#f5aa0c;
   color:white;
 }
 
@@ -146,5 +146,20 @@ footer a span{
 @media all and (max-width: 600px){
   header, article,footer{
     margin: 0 20px;
+    width:auto;
+  }
+  header{
+    margin-top:20px;
+  }
+  header h1{
+    width:auto;
+  }
+  input#email{
+    margin-bottom:20px;
+  }
+  input#email, input#submit{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
