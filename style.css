@@ -146,6 +146,18 @@ footer a{
 footer a span{
   color:#0f1112;
 }
+.ie8{
+  background:#933;
+  color:#eee;
+  font-size:20px;
+  padding:10px;
+  text-align:center;
+}
+.ie8 a{
+  font-size:24px;
+  color:white;
+  font-weight:bold;
+}
 @media all and (max-width: 600px){
   header, article,footer{
     margin: 0 20px;
