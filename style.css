@@ -118,12 +118,13 @@ input#submit{
   display:inline-block;
 }
 input#email{
-  padding: 13px 15px;
+  padding: 13px 15px 14px 15px;
   width: 375px;
 }
 input#submit{
   background-color:#f5aa0c;
   color:white;
+  cursor: pointer;
 }
 
 footer{
