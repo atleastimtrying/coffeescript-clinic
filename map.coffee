@@ -5,7 +5,7 @@ window.onload = ->
     center : latlng
     zoom: 8
     mapTypeId: google.maps.MapTypeId.ROADMAP
-  map = new google.maps.Map display, mapOptions
+  map = new google.maps.Map display, options
   marker = new google.maps.Marker
     position: latlng
     map: map

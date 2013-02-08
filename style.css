@@ -5,6 +5,10 @@
 
 body {
   background-color:#d1c9bd;
+  background-image:url(stain.png);
+  background-position:300px 400px;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
   color:#393939;
   font-size: 16px;
   font-family:'Open Sans', sans-serif;
@@ -19,26 +23,25 @@ header{
   background-image:url(logo.svg);
   background-repeat:no-repeat;
   background-size:80px;
-  width:430px;
-  padding: 13px 0 54px 130px;
+  width:460px;
+  padding: 13px 0 54px 100px;
 }
 header h2{
   font-size:25px;
+  line-height:25px;
   color:#95928e;
   font-weight:normal;
-  margin-bottom:15px;
+  margin-bottom:8px;
   width:150px;
 }
 header h1{
-  font-size:41px;
+  font-size:35px;
+  line-height:35px;
   color:#373737;
   width: 365px;
 }
-}
-
 article{
   border:1px solid #aca59a;
-  box-shadow: 1px 0 0 #f5f4f2;
   border-radius:4px;
   overflow:hidden;
 }
@@ -59,30 +62,86 @@ section h2{
   line-height:44px;
   font-weight:normal;
 }
-section h3.
+
+section h3,
 time,
 .twitter{
   font-size:28px;
   color:#5c5c5c;
   font-weight:normal;
+  display:block;
+  margin-bottom:10px;
 }
+
 time,
 .twitter{
   color:#f09c28;
 }
 
+.twitter{
+  margin-bottom:0;
+  padding-left:50px;
+  background-image:url(twitter.svg);
+  background-repeat:no-repeat;
+  background-position:left;
+  background-size:30px;
+}
+
+#gmap{
+  border-radius:2px;
+  border:1px solid #d6d6d6;
+  background:#eee;
+  width:auto;
+  height:264px;
+}
+
+p{
+  font-size:24px;
+  line-height:30px;
+  color:#a5a5a5;
+  margin-bottom:30px;
+}
 a{
   color:#f09c28;
   text-decoration:none;
 }
-input{
+input#email,
+input#submit{
   background:#e0e0e0;
   padding:15px;
   border:0;
+  font-size:24px;
+  line-height:24px;
+  font-weight:normal;
+  display:inline-block;
+}
+input#email{
+  padding: 13px 15px;
+  width: 375px;
+}
+input#submit{
+  background-color:#f09c28;
+  color:white;
 }
 
 footer{
+  text-align:center;
+}
 
+footer a{
+  background-image:url(pandr.svg);
+  background-repeat:no-repeat;
+  background-position:top left;
+  color:#95928e;
+  font-size:14px;
+  display:inline-block;
+  padding-left:25px;
+  padding-top:30px;
+  margin-top:40px;
+  margin-bottom:50px;
+}
+footer a span{
+  color:#0f1112;
 }
 @media all and (max-width: 600px){
   header, article,footer{
