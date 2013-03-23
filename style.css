@@ -103,6 +103,19 @@ p{
   color:#a5a5a5;
   margin-bottom:30px;
 }
+blockquote p{
+  font-size:16px;
+  line-height:18px;
+  color:#858585;
+  margin-bottom:16px;
+}
+blockquote{
+  margin-bottom:-8px;
+}
+small{
+  margin-bottom:30px;
+  display:block;
+}
 a{
   color:#f5aa0c;
   text-decoration:none;
