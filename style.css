@@ -145,9 +145,6 @@ footer{
 }
 
 footer a{
-  background-image:url(pandr.svg);
-  background-repeat:no-repeat;
-  background-position:top left;
   color:#95928e;
   font-size:14px;
   display:inline-block;
@@ -155,6 +152,11 @@ footer a{
   padding-top:30px;
   margin-top:40px;
   margin-bottom:50px;
+}
+footer a.pandr{
+  background-image:url(pandr.svg);
+  background-repeat:no-repeat;
+  background-position:top left;
 }
 footer a span{
   color:#0f1112;
