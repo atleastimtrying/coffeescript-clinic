@@ -103,6 +103,19 @@ p{
   color:#a5a5a5;
   margin-bottom:30px;
 }
+blockquote p{
+  font-size:16px;
+  line-height:18px;
+  color:#858585;
+  margin-bottom:16px;
+}
+blockquote{
+  margin-bottom:-8px;
+}
+small{
+  margin-bottom:30px;
+  display:block;
+}
 a{
   color:#f5aa0c;
   text-decoration:none;
@@ -132,9 +145,6 @@ footer{
 }
 
 footer a{
-  background-image:url(pandr.svg);
-  background-repeat:no-repeat;
-  background-position:top left;
   color:#95928e;
   font-size:14px;
   display:inline-block;
@@ -142,6 +152,11 @@ footer a{
   padding-top:30px;
   margin-top:40px;
   margin-bottom:50px;
+}
+footer a.pandr{
+  background-image:url(pandr.svg);
+  background-repeat:no-repeat;
+  background-position:top left;
 }
 footer a span{
   color:#0f1112;
@@ -166,8 +181,22 @@ footer a span{
   header{
     margin-top:20px;
   }
-  header h1{
+  header h1,
+  body h2{
     width:auto;
+    font-size:22px;
+    line-height:24px;
+  }
+  header h2,
+  section h3,
+  time,
+  .twitter{
+    font-size:20px;
+    line-height:22px;
+  }
+  p{
+    font-size:16px;
+    line-height:18px;
   }
   input#email{
     margin-bottom:20px;
@@ -176,5 +205,10 @@ footer a span{
     display: block;
     width: 100%;
     box-sizing: border-box;
+    border-radius:0;
+    background-image:none;
+  }
+  footer a{
+    margin: 20px;
   }
 }
